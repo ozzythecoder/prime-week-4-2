@@ -1,12 +1,38 @@
 body {
+  margin: 0;
+  padding: 0;
+  border: 0;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
+  padding: 5px;
+  margin: 10px;
   background-color: #d0d09e;
 }
 
 .info {
+  margin: auto;
   background-color: lightsalmon;
   color: navy;
+  text-align: center;
+  padding: 10px 30px;
+  margin: 10px;
+}
+
+.img-gradient {
+  background-image:repeating-linear-gradient(
+    to right,
+    rgba(0,0,0,0),
+    rgba(0,0,0,1) 50%,
+    rgba(0,0,0,0) 100%);
+}
+
+img {
+  width: 60%;
+}
+
+.help {
+  font-weight: 300;
+  font-size: 10px;
 }
